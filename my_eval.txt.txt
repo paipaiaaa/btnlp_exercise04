@@ -1,0 +1,11 @@
+Q3:Your code has been rated at 0.00/10 (previous run: 0.00/10, +0.00)
+Q4:Your code has been rated at 0.00/10
+Q5:Your code has been rated at 0.00/10
+
+After:
+Q3:Your code has been rated at 7.00/10 (previous run: 0.00/10, +0.00)
+Q4:Your code has been rated at 6.50/10
+Q5:Your code has been rated at 8.00/10
+
+# It seems to be impossible to fix all of them to at least 8/10? especially for Q3 I tried more than 5 time to fix it but the score doesn't
+change anymore. I guess there could be a problem with pylint?  Also we have to delete a lot of long comments to make it looks like PEP8. However we don't really like it because it could make our code less readable.

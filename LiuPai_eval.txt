@@ -1,0 +1,69 @@
+Q3: 
+1. 
+This script uses scikit-learn for text classification on newsgroup posts related to science topics.  The Multinomial Naive Bayes classifier is trained on TF-IDF vectors, and its performance is evaluated using the F1 score on the test set, demonstrating a common approach for multi-category text classification.
+
+2. This script uses Pandas to load a dataset of 311 service requests, specifically addressing ZIP code data. It replaces certain values ("NO CLUE", "N/A", "0") with NaN during loading, and a function (uniform_zips) is defined to standardize ZIP codes by truncating them to a length of 5 and treating "00000" as NaN. The 'Incident Zip' column is then transformed accordingly, and unique ZIP codes are displayed. 
+
+3. The code defines a series of functions using regular expressions to perform various text processing tasks. These functions include pattern matching, substitution, and manipulation of strings. They address tasks such as detecting specific patterns, modifying text formats, and extracting information.
+
+a_zero_more_b_2 checks if the input string starts with 'a' and is followed by zero or more 'b's.
+a_one_more_b_3 checks if the input string contains 'a' followed by one or more 'b's.
+a_two_three_b_6 checks if the input string contains 'a' followed by two or three 'b's.
+contains_z_13 checks if the input string contains the letter 'z'. 
+
+4. The code utilizes the Pandas and Matplotlib libraries to create a multi-plot visualization of Pokemon data. The dataset is read from the CSV file containing information about various Pokemon. The visualization includes scatter plots, histograms, bar charts, and boxplots to explore relationships and distributions within the data.
+
+for the 4 graphs:
+Compares the "defense" and "attack" attributes of Pokemon.
+Displays the distribution of the "attack" attribute among Pokemon.
+Illustrates the mean "attack" values for each Pokemon type ("type1")
+Represents the distribution of "attack" values for each Pokemon type using 
+
+Q4: 
+NLTK:
+
+Tokenization using word_tokenize.
+Stopword removal.
+Stemming using Porter Stemmer.
+Lemmatization using WordNet Lemmatizer.
+Part-of-speech tagging using pos_tag.
+Chunking with a defined grammar using RegexpParser.
+Spacy:
+
+Tokenization using the Spacy library.
+Stopword removal.
+Lemmatization.
+Part-of-speech tagging.
+Dependency parsing visualization using displacy.
+Gensim:
+
+Tokenization using simple_preprocess.
+Dictionary creation and bag-of-words representation.
+TextBlob:
+
+Tokenization and part-of-speech tagging using TextBlob.
+The code also briefly mentions an alternative extractive summarization approach using the bert-extractive-summarizer library. However, the code for this part is commented out, and the library is not installed.
+
+The final lines show some operations using TextBlob.
+
+Q5:
+this code defines a simple calculator class Calculator with basic arithmetic operations: addition, subtraction, multiplication, and division. It also includes error handling for division by zero.
+
+The class Special extends the Calculator class and adds two additional operations: modulo and exponential.
+
+This code allows to create instances of both Calculator and Special classes and perform arithmetic operations. The Special class inherits all the methods from the Calculator class and adds its own specialized methods.
+
+
+Q6:
+The code is well-documented and organized. It covers various aspects of text preprocessing and feature engineering for sentiment analysis. The runtime information provided is helpful for understanding the time complexity of certain operations.
+
+It performs several tasks related to text data preprocessing, sentiment analysis, and feature engineering. 
+
+It did:
+Data Loading and Exploration.
+Data Cleaning and Exploration.
+Text Vectorization and Classification.
+Lemmatization and Bag-of-Words (BoW).
+Subjectivity Analysis.
+Display the processed DataFrame with additional columns.
+
